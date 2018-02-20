@@ -1,18 +1,22 @@
 body {
   text-align: center;
 }
+
 ul {
   list-style: none;
   padding-left: 0;
 }
+
 h3 {
   margin-top: 5px;
 }
+
 img {
   background-image: url("img/placeholder.png"); /*handling broken image url*/
   min-width: 100%;
   min-height: 200px;
 }
+
 .card {
   width: 300px;
   border-style: solid;
@@ -25,17 +29,18 @@ img {
   text-align: left;
   vertical-align: top;
 }
+
 .info {
   width: 278px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #c7c7c7;
+  border: 1px solid #c7c7c7;
   padding: 10px;
   margin-top: 10px;
 }
+
 .fact {
   font-style: italic;
 }
+
 .label {
   font-weight: bold;
 }
